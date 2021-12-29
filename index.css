@@ -1,6 +1,6 @@
-/* here i use font url of lato from google */
+/* Lato font  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-/* this is universal selectter any property is defined inside it. it apply on every tag */
+
 * {
   padding: 0px;
   margin: 0px;
@@ -42,11 +42,12 @@ body {
   position: absolute;
   right: 20px;
   top: 12px;
+  border-radius: 3px;
 }
 .wrapper .result {
   position: absolute;
   top: 0px;
-  padding-top: 17%;
+  padding-top: 12%;
   z-index: -1;
   height: auto;
   width: 30vw;
@@ -54,20 +55,32 @@ body {
   border-radius: 25px;
   border: rgba(0, 0, 0, 0.1) 2px solid;
   box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.1);
-  overflow-y: scroll;
 }
 /* here i decorate html tag which store inside the index.js */
 .hidden {
   display: none;
 }
-.textStyle {
+.list {
+  margin: 10px;
   list-style: none;
-  padding-left: 10%;
+  padding: 8px 5px;
+  border-radius: 10px;
 }
-.textStyle a {
+
+.list-link {
   text-decoration: none;
   color: black;
 }
-.textStyle:hover {
+.list-link:hover {
+  text-decoration: none;
+  color: black;
+}
+.list:hover {
   background-color: #ebe8e8;
+}
+.list-logo {
+  width: 50px;
+  margin-right: 20px;
+  padding: 0px 10px;
+  border-radius: 20px;
 }
